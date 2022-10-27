@@ -1,0 +1,16 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Installing dependencies and running your app...",
+        "type": "shell",
+        "command": "sleep 5 && mysql -p --password=password",
+        "presentation": {
+          "reveal": "always",
+          "panel": "new"
+        },
+        "runOptions": { "runOn": "folderOpen" }
+      }
+    ]
+  }
+  
