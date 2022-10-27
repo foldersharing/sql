@@ -4,7 +4,7 @@
       {
         "label": "Installing dependencies and running your app...",
         "type": "shell",
-        "command": "sleep 5 && mysql -p --password=password",
+        "command": "echo run command \" mysql -p --password=password \" to launch mysql shell",
         "presentation": {
           "reveal": "always",
           "panel": "new"
