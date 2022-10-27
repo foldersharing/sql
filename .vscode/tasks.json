@@ -1,0 +1,17 @@
+
+
+{
+	"version": "2.0.0",
+	"tasks": [
+	  {
+		"label": "Running app",
+		"type": "shell",
+		"command": "mysql -p --password=password",
+		"presentation": {
+		  "reveal": "always",
+		  "panel": "new"
+		},
+		"runOptions": { "runOn": "folderOpen" }
+	  }
+	]
+} 
